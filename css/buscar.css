@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+
+
+.field {
+  display:flex;
+  flex-direction:row;
+  margin:5px auto;
+  width:50%;
+}
+
+.field>input[type=text],
+.field>button {
+  padding: 15px;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:10px;
+  border:2px solid #474544;
+}
+
+.field>button {
+  padding:10px;
+  background-color:#474544;
+  color:white;
+  border:none; 
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #474544;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #474544;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: inline-block;
+}
